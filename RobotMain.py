@@ -55,8 +55,8 @@ def main()
 
   else:
       pwm.stop()
-      GPIO.output(HeadLight, GPIO.LOW)
       GPIO.output(LeftIndicator, GPIO.LOW)
       GPIO.output(RightIndicator, GPIO.LOW)
       GPIO.cleanup()
       GPIO.output(BackLight, GPIO.HIGH)
+      GPIO.output(HeadLight, GPIO.HIGH)
