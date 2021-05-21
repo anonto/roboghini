@@ -1,0 +1,12 @@
+sudo apt-get install python-smbus
+sudo apt-get install i2c-tools
+sudo i2cdetect -y 1
+sudo apt-get install git build-essential python-dev
+pwd
+git clone https://github.com/adafruit/Adafruit_Python_PCA9685.git
+ls
+cd Adafruit_Python_PCA9685/
+ls
+sudo python setup.py install
+cd examples
+ls
